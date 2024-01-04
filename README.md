@@ -1,5 +1,7 @@
 # React + Docker
 
+For DEVELOPER purposes yes, but not for Production
+
 VERSION A: [How to Use Docker with React and Vite](https://www.webdevolution.com/blog/how-to-use-docker-with-react-and-vite)
 
 Create Dockerfile
@@ -47,4 +49,19 @@ docker container ls
 ![code](/img/code.png)
 ![code](/img/reult.png)
 
+Für Production & Deployment
+
 VERSION B: [Running a React Vite App in Docker Using NGINX](https://medium.com/@fullstackmatt/running-a-react-vite-app-in-docker-using-nginx-414ff9a302c5)
+
+Create Dockerfile
+
+```
+# Use the official Nginx image with the Alpine Linux distribution as the base image
+FROM nginx:alpine
+
+# Copy the contents of the 'dist' directory to the specified path within the image
+COPY dist /usr/share/nginx/html
+
+```
+
+the Dockerfile sets up an Nginx server using the Alpine Linux distribution as a base, and it copies the contents of the "dist" directory to the location where Nginx expects its static files. This is a common approach for deploying static websites using Docker and Nginx.
