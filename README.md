@@ -49,7 +49,7 @@ docker container ls
 ![code](/img/code.png)
 ![code](/img/result.png)
 
-### VERSION A: Für Production & Deployment
+### VERSION B: Für Production & Deployment
 
 VERSION B: [Running a React Vite App in Docker Using NGINX](https://medium.com/@fullstackmatt/running-a-react-vite-app-in-docker-using-nginx-414ff9a302c5)
 
