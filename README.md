@@ -29,6 +29,8 @@ EXPOSE 5173
 CMD ["npm", "run", "dev"]
 ```
 
+This Dockerfile is suitable for development purposes. For production, you might consider using a multi-stage build to separate the build environment from the runtime environment and possibly run the app in a production-ready server (e.g., Nginx) rather than the development server provided by the npm script.
+
 Create .dockignore
 
 ```
