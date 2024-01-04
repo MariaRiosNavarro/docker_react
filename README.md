@@ -1,6 +1,6 @@
 # React + Docker
 
-For DEVELOPER purposes yes, but not for Production
+### VERSION A: For DEVELOPER purposes yes, but not for Production
 
 VERSION A: [How to Use Docker with React and Vite](https://www.webdevolution.com/blog/how-to-use-docker-with-react-and-vite)
 
@@ -49,7 +49,7 @@ docker container ls
 ![code](/img/code.png)
 ![code](/img/result.png)
 
-Für Production & Deployment
+### VERSION A: Für Production & Deployment
 
 VERSION B: [Running a React Vite App in Docker Using NGINX](https://medium.com/@fullstackmatt/running-a-react-vite-app-in-docker-using-nginx-414ff9a302c5)
 
