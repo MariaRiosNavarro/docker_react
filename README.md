@@ -47,7 +47,7 @@ docker run --name reactdocker_01 -d -p 8050:5173 c6ab3a2a9231
 docker container ls
 
 ![code](/img/code.png)
-![code](/img/reult.png)
+![code](/img/result.png)
 
 Für Production & Deployment
 
